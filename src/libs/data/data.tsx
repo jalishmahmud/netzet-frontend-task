@@ -2,8 +2,11 @@ import { HeroSectionContent, NavLinks } from "@/types/data.type";
 import { pageRoutes } from "../page-routes/pageRoutes";
 
 export const heroSectionContent: HeroSectionContent = {
-  announcementBanner:
-    "🚀 FRESH BEGINNINGS SALE: Extra 25% OFF, Limited Spots - start your journey today!",
+  announcementBanner: {
+    segment1: "🚀 FRESH BEGINNINGS SALE:",
+    segment2: "Extra 25% OFF, Limited Spots - start your journey today!",
+  },
+
   headline: "Want to Turn Social Media Into a Profitable Career?",
   subheading: "Discover your way to success with Fametonic:",
   benefits: [

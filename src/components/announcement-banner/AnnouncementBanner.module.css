@@ -1,0 +1,42 @@
+.announcement-banner {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  margin-bottom: 35px;
+}
+
+.title {
+  font-family: var(--font-figtree);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.title>span {
+  color: #00E7F9;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .announcement-banner {
+    height: 76px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+
+  .title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .title>span {
+    font-size: 14px;
+  }
+}
