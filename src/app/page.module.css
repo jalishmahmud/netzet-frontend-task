@@ -3,3 +3,11 @@
     height: 100vh;
     overflow: hidden;
 }
+
+@media (max-width: 786px) {
+    .homepage {
+        width: 100%;
+        height: auto;
+        overflow: inherit;
+    }
+}

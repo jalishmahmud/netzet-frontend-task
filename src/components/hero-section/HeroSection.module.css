@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family: var(--font-urbanist);
+    font-family: var(--font-figtree);
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -44,6 +44,11 @@
 }
 
 .bottom-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta {
     width: 100%;
 }
 
@@ -101,4 +106,73 @@
     height: 679px;
     margin-top: -29px;
     margin-left: -58px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 0 40px 0;
+    }
+
+    .contents {
+        padding: 0 20px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-image {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 426px;
+        margin: -62px 0;
+    }
+
+    .headline,
+    .subheading {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .benefits {
+        margin: 22px 0;
+    }
+
+    .benefits>p {
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .bottom-part {
+        flex-direction: column-reverse;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .disclaimer {
+        padding: 0 30px;
+    }
+
+    .disclaimer-text {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .copyright-text {
+        margin-top: 19px;
+        text-align: center;
+    }
+
+    .cta-button {
+        width: 100%;
+        font-family: var(--font-urbanist);
+    }
+
+    .quiz-note {
+        width: 100%;
+    }
 }
