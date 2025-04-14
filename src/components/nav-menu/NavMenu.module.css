@@ -1,0 +1,15 @@
+.nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.nav-menu>a {
+    font-family: var(--font-figtree);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--color-gray-dark);
+}

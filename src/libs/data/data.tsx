@@ -1,4 +1,5 @@
 import { HeroSectionContent, NavLinks } from "@/types/data.type";
+import { pageRoutes } from "../page-routes/pageRoutes";
 
 export const heroSectionContent: HeroSectionContent = {
   announcementBanner:
@@ -21,11 +22,11 @@ export const navLinks: NavLinks[] = [
   {
     id: 1,
     label: "About Us",
-    url: "#",
+    url: pageRoutes.about,
   },
   {
     id: 2,
     label: "Contact",
-    url: "#",
+    url: pageRoutes.contact,
   },
 ];

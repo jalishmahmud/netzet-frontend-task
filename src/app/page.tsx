@@ -1,8 +1,9 @@
-import styles from "./page.module.css";
+import Header from "@/components/header/Header";
+import styles from "@/app/page.module.css";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <h2>Netzet frontend task</h2>
+      <Header />
     </div>
   );
 }
