@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 1024px) {
     .homepage {
         width: 100%;
         height: auto;

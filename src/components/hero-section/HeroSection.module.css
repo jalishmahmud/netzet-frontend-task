@@ -176,3 +176,29 @@
         width: 100%;
     }
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .hero-section {
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 40px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .hero-section {
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 215px;
+    }
+
+    .contents {
+        width: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-image {
+        margin: 0
+    }
+}
